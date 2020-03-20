@@ -9,7 +9,7 @@ h1 {
 
 h1,
 h2 {
-	color: orange;
+	color:#ffbc00;
 	text-transform: uppercase;
 	font-weight: 100;
 }
@@ -20,7 +20,7 @@ img {
 
 footer {
 	margin-top: 70px;
-	background-color: orange;
+	background-color:#ffbc00;
 	color: white;
 }
 
