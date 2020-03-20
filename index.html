@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Tea Recipe</title>
+    <!-- add the font awesome link here -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" /> 
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+	<body>
+		<div id="container">
+			<header>
+				<h1>How to make Green Tea</h1>
+				<img src="https://i.imgur.com/uzRbZ4q.jpg" alt="A cup of Green Tea">
+				<p>	Green tea is the healthiest beverage on the planet. It is loaded with antioxidants and nutrients that have powerful effects of the body. These include improved brain function, fat loss, a lower risk of cancer and many other impressive benefits.</p>
+	
+			</header>
+			
+			<section  id="ingredients" onmouseover="ingredientsHover()" onmouseout="ingredientsNormal()">
+				<h2>ingredients <i class="fa fa-check-circle" aria-hidden="true"></i></h2>
+				<ul>
+				<li> Green Tea (Teabag or dried leaves)</li>
+			  <li> Boiled Water</li>
+			  <li> Ginger (Optional)</li>
+			  <li> Lime (Optional)</li>
+			  <li> Sugar or Honey (Optional)</li>
+				</ul>
+			</section>
+			
+			<section id="preparation" onmouseover="preparationHover()" onmouseout="preparationNormal()">
+				<h2>preparation <i class="fa fa-coffee " aria-hidden="true"></i></h2>
+				<ol>
+				<li>Boil water</li>
+			  <li>Optional: Cut some Ginger and Lime (wash both under hot water before!)</li>
+			  <li>Pour just a little boiled water over the Green Tea (either the Teabagbags or the leaves) and let it sit for 5 to 8 seconds, then pour the water out</li>
+			  <li>Pour the boiled water in the cup with the Tea (and put the optional ingredients in it aswell!)</li>
+			  <li>Let it sit for a while, then take the Teabagbags or leaves and the optional ingredients out (the longer they sit, the more taste!)</li>
+			  <li><b>ENJOY</b></li>
+				</li>
+				</ol>
+			</section>
+			
+			<footer>
+				<p>Copyright Me 2020</p>
+			</footer>
+		</div>
+		<script>
+		function ingredientsHover(){document.getElementById("ingredients").style.fontSize = "120%";}
+		function ingredientsNormal(){document.getElementById("ingredients").style.fontSize = "100%";}
+		function preparationHover(){document.getElementById("preparation").style.fontSize = "120%";}
+		function preparationNormal(){document.getElementById("preparation").style.fontSize = "100%";}
+    		
+    </script>
+	</body>
+</html>
